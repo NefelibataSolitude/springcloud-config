@@ -2,6 +2,8 @@ spring:
   profiles: 
     active: dev
 ---
+server:
+  prot: 8001
 spring:
   profiles: dev
   application:
@@ -14,6 +16,8 @@ eureka:
       
       
 ---
+server:
+  prot: 8002
 spring:
   profiles: test
   application:
